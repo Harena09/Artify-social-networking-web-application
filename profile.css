@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* NewsFeed Style */
+
+body {
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  height: 95px;
+  justify-content: space-between;
+
+}
+
+ header nav div.header {
+
+    font-size: 18px;
+    margin-left: 25px;
+    color: white;
+
+  
+}
+
+
+ #titre{
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.searchBox{
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+#searchField{
+
+width: 100%;
+height: 50px;
+margin-right: 90px;
+border-radius: 25px;
+padding: 10px;
+font-size:17px ;
+}
+
+
+.links{
+
+    list-style-type: none;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 40px;
+     margin-right: 45px;
+
+}
+
+.links li a {
+
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 35px;
+    color: white;
+    background-color: rgb(6, 78, 31);
+   padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.links li a:hover {
+
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+}
+
+.left-sidebar{
+
+ 
+    background-color: rgb(255, 254, 253);
+    height: 100vh;
+    flex-basis: 22%;
+    align-self: flex-start;
+    position: sticky;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+  position: sticky;
+
+}
+
+.leftlinks {
+
+  flex-direction: column;
+   align-items: center;
+   margin-top: 13px;
+  
+}
+
+.menu-items{
+
+    margin-top: 18px;
+}
+
+.leftlinks li{
+
+display: flex;
+ margin-top: 15px;
+align-items: center;
+padding: 10px;
+}
+
+.leftlinks li:hover{
+    background-color: rgb(237, 233, 233);
+}
+
+
+.leftlinks li a{
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-sidebar {
+
+    background-color: rgb(255, 254, 253);
+    height: 100vh;
+    flex-basis: 22%;
+    align-self: flex-start;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+.main-content{
+    flex-basis: 78%;
+    background-color: rgb(255, 254, 253);
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+#FeedTitle {
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.sideBar-elements{
+
+    
+    border-radius: 3px;
+    padding: 30px;
+    align-items: center;
+    margin: 12px;
+    z-index: 100; 
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgba(86, 85, 85, 0.6);
+
+    background-color: rgb(238, 238, 233);
+    
+}
+
+.sideBar-elements h2{
+
+    padding-left: 25px;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.sidebar-links{
+
+margin-top: 25px;
+
+}
+
+.sidebar-links li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 17px;
+}
+
+.sidebar-links li a{
+
+    text-decoration: none;
+    color: white ;
+    font-weight: 500;
+    font-size:20px;
+
+
+}
+
+
+.register{
+
+    background-color:grey;
+    padding: 13px 60px 13px 60px;
+    border-radius: 6px;
+
+
+}
+
+
+
+.login{
+
+    background-color:blue;
+    padding: 13px 70px 13px 67px;
+    border-radius: 6px;
+
+
+}
+
+.register:hover{
+
+    background-color: white;
+
+}
+
+.sidebar-links li a:hover{
+
+    color: black;
+
+}
+
+.login:hover{
+
+    background-color: white;
+}
+
+
+
+
+.uploadF {
+
+   
+    padding:20px ;
+    margin: 15px;
+    margin-top: 50px;
+    border: 1px solid rgb(146, 136, 136) ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: -1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+
+input[type=text]{
+
+padding: 12px;
+margin: 10px ;
+border: 1px solid grey;
+border-radius:10px ;
+
+}
+
+
+
+#title {
+margin-top: 1px;
+margin-bottom:21px ;
+
+}
+
+#comments {
+
+  padding: 10px; 
+  padding-right: 70px;
+  padding-bottom: 45px;
+  margin-top: 1px;
+  background-color: rgb(227, 227, 227);
+
+
+}
+
+
+#uploadButton{
+
+    padding: 12px 18px;
+    border: 1px solid;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    
+
+}
+
+
+#uploadButton:hover{
+       color: black;
+    background-color: rgb(203, 199, 199);
+
+}
+
+
+
+
+
+/* Profile Page Style */
+
+
+.profilePage{
+
+    background-color: rgb(7, 84, 128);
+    padding: 30px 70px;
+    margin: 150px 90px;
+    text-align: center;
+    
+}
+
+.profilePage h1{
+
+font-size: 50px;
+text-align: center;
+    
+}
+
+
+.profilePic{
+
+    padding: 15px;
+   font-size: 25px;
+   margin-top: 15px;
+
+}
+
+input[type=file]{
+    padding: 17px;
+}
+
+.upldButton{
+
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+
+
+
+.SearchbtnIcon{
+
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 325px ;
+   top: 35px;
+}
+
+.SearchbtnIcon:hover{
+
+    color: rgb(235, 230, 230);
+
+}
+
+
+
+
+#users {
+
+    display: grid;
+    gap: .25rem;
+    border: 1px solid;
+    margin-top: 15px;
+    padding: 11px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+#followbtn {
+
+padding: 9px;
+background-color: rgb(14, 166, 208) ;
+border-radius: 2px;
+
+
+}
+
+
+
+#followbtn:hover{
+
+    background-color: rgb(193, 190, 190);
+
+}
+
+
+#unfollowbtn {
+
+    padding: 9px;
+    border-radius: 2px;
+    background-color: rgb(2, 74, 2);
+    
+    }
+    
+    
+    
+    #unfollowbtn:hover{
+    
+        background-color: rgb(209, 204, 204);
+    
+    }
+    
+    
+    #FollowedUsers{
+    
+        margin-top: 25px;
+    }
+    
+    
