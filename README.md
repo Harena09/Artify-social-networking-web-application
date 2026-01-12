@@ -51,40 +51,43 @@ MongoDB (MongoDB Atlas)
 - When a user logs out, the session is destroyed on the serve
 
 
-How the game works
-Play creates an account and log in
-press Start to begin the game
-play's car increases speed
-enemy cars appear
-the goal is to survive as long as possible
-if collison happens, the game ends
-player's score is shown on the leaderboard
-Data Storage
-User details are stored in local storage
-score is stored in a array of objects in JSON format
-using Javascript sorting algorithm to classify scores in descending order
-the leaderboard updates automatically
-What I learned:
+# Backend REST APIs : 
+- Users
+- Login session
+- Follows
+- Posts
+
+# Data stored in MongoDB: 
+- Users
+- Posts
+- Follows
+
+# AJAX (API) used to: 
+- Retrive data from user login
+- Retrieve user's posts
+- Send follow to users
+- Search users
+- Update UI without reloading the page
+
+What i learned: 
+
+- Build a full-stack web application
+- Use Node.js and Express to create REST APIs
+- Connect and interact with a MongoDB database
+- Use AJAX for real-time updates
+- Implement login systems using sessions
+- Handle form validation and user input
+- Structure a scalable web application
+- Debug server and client-side issues
 
 
-How to build a complete multi-page website
-How to use JavaScript for game logic and animations
-How to handle keyboard input and event listeners
-How to validate forms using JavaScript and Regular Expressions
-How to store and retrieve data using Local Storage
-How to sort and display dynamic data in a leaderboard
-How to structure and document a web development project
-How to run the project
-clone the repo
-open the project folder
-open the index.html and create an account
-Known Issues & Improvements
-This project was developed as a second-year university coursework and may contain minor bugs or unfinished features.
-Some improvements that could be made include:
+# How to run the project: 
 
-Improving collision detection accuracy
-Enhancing game difficulty balancing
-Adding sound effects and animations
-Improving mobile responsiveness
-Storing scores in a real database instead of Local Storage
+1. clone the repository
+2. install the dependencies
+3. start the server nose server.js or npm start
+4. Open the browser and go to http://localhost:8080
+
+
+
 👤 Author Harenasoa Sarobidy Ralainandrasana BSc Computer Science (Systems Engineering) Middlesex University 📧 ralainandrasana9@gmail.com
