@@ -88,6 +88,12 @@ What i learned:
 3. start the server nose server.js or npm start
 4. Open the browser and go to http://localhost:8080
 
+# Improvements: 
+- Improve UI
+- Add profile picture
+- Add likes and comments on posts
+  
+
 
 
 👤 Author Harenasoa Sarobidy Ralainandrasana BSc Computer Science (Systems Engineering) Middlesex University 📧 ralainandrasana9@gmail.com
